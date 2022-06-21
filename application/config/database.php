@@ -4,9 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 $hostname ='localhost';
-$username ='mtlogicsxyz_user';
-$password ='yazdanhaider@123';
-$database ='mtlogicsxyz_pos';	
+$username ='root';
+$password ='';
+$database ='partyworld_pos';	
 
 $db['default'] = array(
 	'dsn'	=> '',

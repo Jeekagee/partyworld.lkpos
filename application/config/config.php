@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'https://test.mtlogics.xyz/product/pos/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
