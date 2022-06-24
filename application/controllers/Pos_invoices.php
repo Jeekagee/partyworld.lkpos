@@ -388,7 +388,7 @@ class Pos_invoices extends CI_Controller
                             } else {
                                 $this->db->set('qty', "qty-$amt", FALSE);
                                 $this->db->where('pid', $product_id[$key]);
-                                $this->db->update('geopos_products');
+                                $this->db->update('geopos_purchase_items');
                             }
                         }
 

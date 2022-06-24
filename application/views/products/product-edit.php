@@ -111,8 +111,7 @@
 
                         <div class="col-sm-6">
                             <div class="input-group">
-                                <span class="input-group-addon"><?php echo $this->config->item('currency');
-                                    echo $product['product_price'] ?></span>
+                                <span class="input-group-addon"><?php echo $this->config->item('currency') ?></span>
                                 <input type="text" name="product_price" class="form-control required"
                                        placeholder="0.00" aria-describedby="sizing-addon"
                                        onkeypress="return isNumber(event)"

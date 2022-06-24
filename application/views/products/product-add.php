@@ -20,15 +20,9 @@
         </div>
         <div class="card-body">
             <form method="post" id="data_form">
-
-
                 <input type="hidden" name="act" value="add_product">
-
-
-                <div class="form-group row">
-
-
-                    <div class="col-sm-6"><label class="col-form-label"
+                    <div class="form-group row">
+                        <div class="col-sm-6"><label class="col-form-label"
                                                  for="product_name"><?php echo $this->lang->line('Product Name') ?>
                             *</label>
                         <input type="text" placeholder="Product Name"
